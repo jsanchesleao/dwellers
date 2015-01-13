@@ -1,0 +1,24 @@
+{
+  "name": "imbecil",
+  "version": "0.0.0",
+  "description": "projeto do condominio de idiotas",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "nodemon src/app.js"
+  },
+  "author": "imbecis",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.6.4",
+    "express": "^4.10.7"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-file-blocks": "^0.3.3",
+    "grunt-nodemon": "^0.3.0",
+    "grunt-wiredep": "^2.0.0",
+    "load-grunt-tasks": "^2.0.0"
+  }
+}
